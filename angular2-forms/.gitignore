@@ -7,3 +7,7 @@ Thumbs.db
 # Node Files #
 /node_modules
 /bower_components
+
+#exclude .js and .map file sinces tsc will auto generate files
+/app/**/*.js
+/app/**/*.js.map
